@@ -3,31 +3,49 @@
     <head>
         <meta charset="utf-8"/>
         <title>Andrew Boe</title>
+        <link type='text/css' rel ='stylesheet' href='assets/css/reset.css'/>        
         <link type='text/css' rel ='stylesheet' href='assets/css/style.css'/>        
     </head>
-    <body> 
-        <header>
-            <div class='header_content'>
-                <h1>Andrew Boe</h1>
-                <ul>
-                <li><a href="./index.html">About</a></li> 
-                <li><a href="./portfolio.html">Porfolio</a></li>
-                <li><a href="./contact.html">Contact</a></li>
+    <body>
+        <header id='header-template'>
+            <div class='container'>
+                <a href='./index.html' id='name-logo'>Andrew Boe </a>  
+                    <nav> 
+                        <a href="./index.html">About</a>
+                        <a href="./portfolio.html">Portfolio</a>
+                        <a href="./contact.html">Contact</a>
+                    </nav>
             </div>
         </header>
-        <section class='main'>
-            <h1 id='contact'>Contact</h1>
-            <p>
-                <form>
-                    Name: <br> <input type="text" name="name" id="form_name"/><br><br>
-                    Email: <br> <input type="text" name="email" id="email_name"/><br><br>
-                    Message: <br> <textarea type="text" name="message"></textarea>
-                    <br><input type="submit" value="Submit" id="submit"/>
-               </form>
-            </p>
-        </section>
+        <div class= 'container' id='main-container'>
+            <section class='main-sect'>
+                <h1>Contact</h1>
+                   
+                <form id='contact-form'>
+                    <ul>
+                        <li>
+                            <label for='contact-name'>Name</label>
+                            <input type='text' name='contact-name' id='contact-name'>
+                        </li>
+                        
+                        <li>
+                                <label for='contact-email'>Email</label>
+                                <input type='text' name='contact-email' id='contact-email'>
+                        </li>
+                        <li>
+                            <label for='contact-message'>Message</label>
+                            <textarea name='contact-message' id='contact-message'></textarea>
+                        </li>
+                    </ul>
+                    <input type='submit' name='submit'/>
+                </form>
+            </section>
+        </div>
         <footer>
-            Copyright©
-        </footer>    
+            <div class='container'>
+                Copyright© 2018
+            </div>
+        </footer>
     </body>
 </html>
+

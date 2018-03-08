@@ -3,33 +3,37 @@
     <head>
         <meta charset="utf-8"/>
         <title>Andrew Boe</title>
+        <link type='text/css' rel='stylesheet' href='assets/css/reset.css'/>
         <link type='text/css' rel ='stylesheet' href='assets/css/style.css'/>        
     </head>
     <body>
-        <header>
-            <div class='header_content'>
-            <h1 id="header_name">Andrew Boe</h1>   
-                <ul>
-                    <li><a href="./index.html">About</a></li>
-                    <li><a href="./portfolio.html">Portfolio</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                </ul>
+        <header id='header-template'>
+            <div class='container'>
+                <a href='./index.html' id='name-logo'>Andrew Boe </a>  
+                    <nav> 
+                        <a href="./index.html">About</a>
+                        <a href="./portfolio.html">Portfolio</a>
+                        <a href="./contact.html">Contact</a>
+                    </nav>
             </div>
         </header>
-        <div class='wrapper'>
-                <h1 id='about'>About Me</h1>
-                <img src="./assets/images/profile.jpeg" alt="Profile Picture" id='headshot'/>
-                <p>
+        <div class= 'container' id='main-container'>
+            <section class='main-sect'>
+                <h1>About Me</h1>
+                    <img src="./assets/images/profile.jpeg" alt="Profile Picture" id='headshot'/>
+                    <p>
                     My name is Andrew Boe.  Originally from South Florida, I have recently moved to the 
                     Atlanta area to pursue a career in the tech industry.  Whether it be another language, 
                     history, or something else foreign to me, I'm always looking to learn.  With a background
                     in biomedical sciences, I'm excited to see how my previous experiences will converge 
                     with my newest endeavor.
-                </p>
+                    </p>
             </section>
         </div>
         <footer>
-            Copyright©
+            <div class='container'>
+                Copyright© 2018
+            </div>
         </footer>
     </body>
 </html>

@@ -1,31 +1,66 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
     <head>
         <meta charset="utf-8"/>
-        <title>About - Andrew Boe</title>
-        <link href="./assets/css/style.css" rel='stylesheet' type='text/css'/>
+        <title>Andrew Boe</title>
+        <link type='text/css' rel ='stylesheet' href='assets/css/reset.css'/>        
+        <link type='text/css' rel ='stylesheet' href='assets/css/style.css'/>        
     </head>
     <body>
-        <div class='main'>
-        <header>
-            <h1 class="header_left">Andrew Boe</h1>
-            <h2 class="header_right"><a href="./index.html">About</a></h2>
-            <h2 class= "header_right"><a href="./portfolio.html">Porfolio</a></h2>
-            <h2 class= "header_right"><a href="./contact.html">Contact</a></h2>
+        <header id='header-template'>
+            <div class='container'>
+                <a href='./index.html' id='name-logo'>Andrew Boe </a>  
+                    <nav> 
+                        <a href="./index.html">About</a>
+                        <a href="./portfolio.html">Portfolio</a>
+                        <a href="./contact.html">Contact</a>
+                    </nav>
+            </div>
         </header>
-        <section>
-            <h1 id='head_main'>Portfolio</h1>
-        </section>
-        <div class="portfolio_img">
-                <img src='./assets/images/hangman.jpg' alt='hangman' id='hangman'/>
-                <img src='./assets/images/rpg.jpg' alt='rpg' id='rpg' />
-                <img src='./assets/images/trivia.jpg' alt='trivia' id='trivia' />
-                <img src='./assets/images/widget.png' alt='widget' id='widget' />
-                <img src='./assets/images/rockpaperscissors.png' alt='rockpaperscissors' id ='rockpaperscissors'/>
-            </div> 
-        </div>           
+        <div class= 'container' id='main-container'>
+            <section class='main-sect'>
+                <h1>Portfolio</h1>
+
+                    <div class='portfolio-image'>
+                        <img src='./assets/images/hangman.jpg' alt='hangman' id='hangman'/>
+                        
+                        <h3>Hangman</h3>
+                    </div>
+
+                    <div class='portfolio-image'>
+                        <img src='./assets/images/rpg.jpg' alt='rpg' id='rpg' />
+
+                        <h3>RPG Game</h3>
+                    </div>
+
+                    <div class='portfolio-image'>
+                        <img src='./assets/images/trivia.jpg' alt='trivia' id='trivia' />
+
+                        <h3>Trivia Game</h3>
+                    </div>
+
+                    <div class='portfolio-image'>
+                        <img src='./assets/images/widget.png' alt='widget' id='widget' />
+
+                        <h3>GT Info Widget</h3>
+                    </div>
+
+                    <div class='portfolio-image'>
+                        <img src='./assets/images/rockpaperscissors.png' alt='rockpaperscissors' id ='rock-paper-scissors'/>
+    
+                        <h3>Rock Paper Scissors</h3>
+                    </div>
+
+            </section>
+        </div>
         <footer>
-            Copyright©
+            <div class='container'>
+                Copyright© 2018
+            </div>
         </footer>
     </body>
 </html>
+
+
+
+

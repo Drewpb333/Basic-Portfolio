@@ -1,0 +1,86 @@
+header {
+    background-color:   #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    width: 960px;
+    margin: 0 auto;
+    border-style: line;
+    border-color: black;
+}
+
+.header_left {
+    color:#ffffff;
+    background-color: #4aaaa5;
+    padding: 40px;
+}
+
+.header_right {
+    padding: 5px;
+    float: right;
+}
+
+#head_main {
+    color: #4aaaa5;
+}
+
+.wrapper{
+    background-color: #ffffff;
+}
+
+.main {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 960px;
+    margin: 0 auto;    
+    border-color: #dddddd;
+}
+
+footer{
+    border-top-style: line;
+    border-top-color: #4aaaa5;
+    text-align: center;
+    background-color: #666666;
+    color: #777777;
+    padding-top: 40px; 
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.portfolio_img{
+    width: 240px;
+    height: 200px;
+    position: relative;
+}
+
+#hangman{
+    width: 240px;
+    height: 200px;
+}
+
+#rpg{
+    position: absolute;
+    left: 200px;
+    width: 240px;
+    height: 200px;
+}
+
+#trivia{
+    position: absolute;
+    top: 20px;
+    right: 260px;
+    width: 240px;
+    height: 200px;
+}
+
+#widget{
+    position: absolute;
+    left: 20px;
+    width: 240px;
+    height: 200px;    
+}
+
+#rockpaperscissors{
+    position: absolute;
+    top: 20px;
+    width: 240px;
+    height: 200px;
+}
+

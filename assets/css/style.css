@@ -3,7 +3,7 @@ header {
     font-family: 'Georgia', Times, Times New Roman, serif;
     width: 960px;
     margin: 0 auto;
-    border-style: line;
+    border-style: ridge;
     border-color: black;
 }
 
@@ -35,7 +35,7 @@ header {
 }
 
 footer{
-    border-top-style: line;
+    border-top-style: solid;
     border-top-color: #4aaaa5;
     text-align: center;
     background-color: #666666;

@@ -19,6 +19,7 @@ body{
 
 #header-template{
     position: fixed;
+    z-index: 10;
     color: #ffffff;
     overflow: auto;
     border-bottom: 2px solid;
